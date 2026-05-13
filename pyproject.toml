@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medidor-de-deformaciones"
+version = "0.2.0"
+description = "Interfaz para tomar mediciones de deformacion con MCP3008"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "adafruit-blinka",
+    "adafruit-circuitpython-mcp3xxx",
+    "matplotlib",
+    "reportlab",
+]
+
+[project.scripts]
+medidor-de-deformaciones = "medidor.app:main"
+medidor-medicion = "medidor.cli:main"

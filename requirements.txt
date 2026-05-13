@@ -1,0 +1,5 @@
+adafruit-blinka
+adafruit-circuitpython-mcp3xxx
+matplotlib
+reportlab
+
