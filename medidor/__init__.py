@@ -1,2 +1,3 @@
-"""Medidor de deformaciones package."""
+"""Multilingual strain measurement package."""
 
+__version__ = "0.3.0"

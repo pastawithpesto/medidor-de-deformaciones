@@ -1,5 +1,2 @@
-adafruit-blinka
-adafruit-circuitpython-mcp3xxx
-matplotlib
-reportlab
-
+# Compatibility installer. Dependency versions live in pyproject.toml.
+-e .[web]
